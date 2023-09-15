@@ -5,10 +5,6 @@ public class Usuario {
 	private Cliente cliente;
 	private Empresa empresa;
 
-	public Usuario() {
-		super();
-	}
-
 	public Usuario(String username, String senha, Cliente cliente, Empresa empresa) {
 		super();
 		this.username = username;

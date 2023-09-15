@@ -6,10 +6,6 @@ public class Empresa {
 	private Double taxa;
 	private Double saldo;
 
-	public Empresa() {
-		super();
-	}
-
 	public Empresa(Integer id, String nome, String cnpj, Double taxa, Double saldo) {
 		super();
 		this.id = id;
